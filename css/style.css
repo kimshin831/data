@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+ul {
+    padding: 5px;
+    list-style-type: none;
+}
+
+.logo {
+    width: 22px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 13px;
+}
+
+/* position: sticky;는 부모 컨테이너의 범위를 벗어나면 스크롤에 따라 움직임 */
+/* 반드시 top,left,right,botton중 하나이상의 값이 설정되어야 적용됨 */
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    padding-bottom: 8px;
+    position: sticky;
+    /* 요소를 스크롤에 따라 고정되도록 설정 */
+    top: 0;
+}
+
+.header_button_left {
+    color: skyblue;
+    float: left;
+    width: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.header_button_right {
+    color: skyblue;
+    float: right;
+    width: 50px;
+    padding-right: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.footer {
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+
+.footer_button_plus {
+    width: 80px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    padding-top: 12px;
+}
+
+.inputfile {
+    display: none;
+}
+
+.input_plus {
+    cursor: pointer;
+}
